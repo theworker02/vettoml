@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vettoml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vet numeric toml values, ranges, and human-readable units.",
+  "bin": {
+    "vettoml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vettoml.git"
+  },
+  "homepage": "https://theworker02.github.io/vettoml/",
+  "keywords": [
+    "vet",
+    "toml",
+    "number",
+    "cli",
+    "toolkit"
+  ]
+}
